@@ -1,0 +1,21 @@
+{
+    "name": "immediate-solutions/symfony-support",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.4",
+        "symfony/symfony": "3.2.*",
+        "doctrine/doctrine-bundle": "^1.6",
+        "beberlei/DoctrineExtensions": "^1.0",
+        "doctrine/orm": "^2.5",
+        "immediate-solutions/support": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImmediateSolutions\\SupportBundle\\": "./"
+        }
+    }
+}
